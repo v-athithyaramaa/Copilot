@@ -1,8 +1,8 @@
-# 🔍 AI-Powered Code Review Assistant
+# AI-Powered Code Review Assistant
 
 A professional-grade code review automation tool that leverages Google's Gemini 2.0 AI to provide comprehensive code analysis, quality metrics, and actionable improvement suggestions.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -15,7 +15,7 @@ A professional-grade code review automation tool that leverages Google's Gemini 
 - [API Documentation](#api-documentation)
 - [Environment Variables](#environment-variables)
 
-## 🎯 Overview
+## Overview
 
 The Code Review Assistant automates the code review process using advanced AI capabilities. It analyzes code for readability, maintainability, security vulnerabilities, performance issues, and adherence to best practices across multiple programming languages.
 
@@ -28,18 +28,18 @@ The Code Review Assistant automates the code review process using advanced AI ca
 - Best practices validation
 - Historical review tracking and analytics
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 
-- **🤖 AI-Powered Analysis**: Utilizes Google Gemini 2.0 Flash for intelligent code review
-- **📊 Comprehensive Scoring**: Overall quality score with detailed breakdowns
-- **🔒 Security Scanning**: Identifies potential security vulnerabilities and risks
-- **⚡ Performance Analysis**: Detects performance bottlenecks and optimization opportunities
-- **📈 Analytics Dashboard**: Visual insights into code quality trends and statistics
-- **📝 Detailed Reports**: In-depth analysis with actionable recommendations
-- **💾 Review History**: Persistent storage of all code reviews for tracking improvements
-- **🌐 Multi-Language Support**: Automatic language detection and specialized analysis
+- **AI-Powered Analysis**: Utilizes Google Gemini 2.0 Flash for intelligent code review
+- **Comprehensive Scoring**: Overall quality score with detailed breakdowns
+- **Security Scanning**: Identifies potential security vulnerabilities and risks
+- **Performance Analysis**: Detects performance bottlenecks and optimization opportunities
+- **Analytics Dashboard**: Visual insights into code quality trends and statistics
+- **Detailed Reports**: In-depth analysis with actionable recommendations
+- **Review History**: Persistent storage of all code reviews for tracking improvements
+- **Multi-Language Support**: Automatic language detection and specialized analysis
 
 ### User Interface
 
@@ -50,7 +50,7 @@ The Code Review Assistant automates the code review process using advanced AI ca
 - **Filter & Search**: Quick access to historical reviews
 - **Statistics Visualization**: Charts and graphs for code quality metrics
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -76,7 +76,7 @@ The Code Review Assistant automates the code review process using advanced AI ca
 - **Package Managers**: pip (Python), npm (JavaScript)
 - **Code Quality**: ESLint (JavaScript linting)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 code-review-assistant/
@@ -110,7 +110,7 @@ code-review-assistant/
 └── README.md                  # Project documentation
 ```
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -132,7 +132,7 @@ node --version
 npm --version
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -194,7 +194,7 @@ npm install
 cd ..
 ```
 
-## ▶️ Running the Application
+## Running the Application
 
 ### Development Mode
 
@@ -236,7 +236,7 @@ Open your browser and navigate to:
 http://localhost:5173
 ```
 
-## 💡 Usage
+## Usage
 
 ### 1. Upload Code for Review
 
@@ -272,7 +272,7 @@ http://localhost:5173
 - Review language distribution
 - Track recent review trends
 
-## 📡 API Documentation
+## API Documentation
 
 ### Base URL
 
@@ -407,7 +407,7 @@ Success Response (200):
 }
 ```
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the `backend/` directory:
 
@@ -430,7 +430,7 @@ FLASK_DEBUG=True
 4. Copy the generated key
 5. Paste it in your `.env` file
 
-## 📝 Notes
+## Notes
 
 ### Supported Languages
 
