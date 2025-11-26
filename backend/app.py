@@ -17,7 +17,8 @@ load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app)
+# Configure CORS to allow requests from frontend
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # Configuration
 app.config['UPLOAD_FOLDER'] = os.path.join(os.path.dirname(__file__), 'uploads')
